@@ -12,17 +12,15 @@
 </br>
    
 ### ПЗ: 
-Документ
+[Документ](https://github.com/Arina-M/travelAgency/blob/main/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0.pdf)
 
-</br>
-
-В даному відео ми показали всі можливі функції сайту та як ними користуватись.
 
 
 </br>
 
 ### Репозиторій із кодом 
 https://github.com/Arina-M/travelAgency
+</br>
 </br>
 
 ### Посилання:
