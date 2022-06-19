@@ -22,11 +22,10 @@
 </br>
 
 ### Репозиторій із кодом 
+https://github.com/Arina-M/travelAgency
 </br>
-
 
 ### Посилання:
-</br>
 Дизайн сайту
 </br>
 Посилання на дизайн у Figma:
