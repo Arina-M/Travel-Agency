@@ -26,7 +26,6 @@
 
 
 ### Посилання:
-
 </br>
 Дизайн сайту
 </br>
@@ -37,5 +36,7 @@ https://www.figma.com/file/AIHjctTu3MIlZxmDTvUpQz/Travel-agency?node-id=0%3A1
 </br>
 </br>
 Посилання на сайт:
+</br>
+http://188.130.179.122/
 
  
