@@ -79,7 +79,7 @@ $mainImageCaption = sprintf("%s/%s.png", CAPTION_IMAGES_DIR, $pathInfo["filename
 
 $description = $country->getDescription();
 
-$collageImage = sprintf("%s/%s.jpg", COLLAGES_DIR, $pathInfo["filename"]);
+$collageImage = sprintf("%s/%s", COLLAGES_DIR, $pathInfo["filename"]);
 
 $region = $country->getRegionName();
 
