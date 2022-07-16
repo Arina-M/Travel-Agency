@@ -5,11 +5,6 @@
     font-style: normal;
 }
 
-html{
-    /*scroll-behavior: smooth;*/
-    /*transition: all .25s;*/
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -66,6 +61,7 @@ body{
     width: 33px;
     height: 13px;
 }
+
 #menu{
     font-size: 12px;
     color: white;
@@ -100,8 +96,6 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*position: relative;*/
-    /*top: 0;*/
     width: 1000px;
     margin: 0 auto;
 }
@@ -164,24 +158,25 @@ body{
     padding: 0 50px 0 30px;
     caret-color: #F7F7F8;
     opacity: 80%;
+    cursor: pointer;
 }
 
-::-webkit-input-placeholder { /* WebKit browsers */
+::-webkit-input-placeholder {
     color:  #F7F7F8  ;
     opacity: 80%;
 }
 
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder {
     color:  #F7F7F8  ;
     opacity: 80%;
 }
 
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder {
     color:  #F7F7F8  ;
     opacity: 80%;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10+ */
+:-ms-input-placeholder {
     color:  #F7F7F8  ;
     opacity: 80%;
 }
@@ -214,7 +209,6 @@ ul.search-input {
     height: 20px;
     margin: 6px;
     padding: 2px 13px;
-
 }
 
 .search-input div:hover {
@@ -238,8 +232,8 @@ ul.search-input.visible {
     position: relative;
     opacity: 85%;
     display: flex;
-    margin: 25% 0 2% 0 ;
     justify-content: center;
+    margin: 25% 0 2% 0 ;
     z-index: 1;
 }
 
@@ -263,6 +257,10 @@ ul.search-input.visible {
     position: relative;
     display: flex;
     justify-content: right;
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*-webkit-box-pack: right;*/
+    /*-ms-flex-pack: right;*/
     width: 100%;
     height: 200px;
     color: #F7F7F8;
@@ -271,8 +269,13 @@ ul.search-input.visible {
 }
 
 .text-info{
-    display: flex;
-    justify-content: right;
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*-webkit-box-pack: right;*/
+    /*-ms-flex-pack: right;*/
+    /*justify-content: right;*/
+    position: absolute;
     width:46%;
     letter-spacing: 1px;
     text-align: right;
@@ -295,9 +298,11 @@ ul.search-input.visible {
 }
 
 .social-media{
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
+    /*display: flex;*/
+    /*display: -webkit-box;*/
+    /*display: -ms-flexbox;*/
+    /*justify-content: left;*/
+    /*flex-direction: column;*/
     position: absolute;
     left: 0px;
     height: 100px;
@@ -332,7 +337,7 @@ ul.search-input.visible {
     width: 100%;
     position: relative;
     align-items: center;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .header{
@@ -439,7 +444,6 @@ ul.search-input.visible {
     height: 25px;
     line-height: 10px;
     font-size: 10px;
-
 }
 
 .card-info-days{
@@ -452,6 +456,7 @@ ul.search-input.visible {
     background: #d9e2fb;
     color: #4E7BD9;
 }
+
 .card-info-cat.relax{
     background: #fcd2e8;
     color: #F56AB1;
@@ -541,7 +546,6 @@ ul.search-input.visible {
 .hidden {
     display: none;
 }
-
 
 .blackout-bg{
     position: fixed;
@@ -751,10 +755,12 @@ ul.search-input.visible {
     left: 330px;
     top: 77px;
 }
+
 #aboutHint-2{
     left: -65px;
     top: 211px;
 }
+
 #aboutHint-3{
     left: 330px;
     top: 345px;
@@ -774,7 +780,9 @@ ul.search-input.visible {
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 130px;
 }
+
 
 #next-reviews{
     margin-left: 20px;
@@ -785,11 +793,11 @@ ul.search-input.visible {
     flex-direction: row;
     position: relative;
     justify-content: right;
-    top: -130px;
+    top: -80px;
 }
 
 #reviews{
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .review-block{
@@ -798,6 +806,7 @@ ul.search-input.visible {
     flex-direction: row;
     margin: 0 20px;
 }
+
 .review-img{
     position: relative;
     display: flex;
@@ -844,6 +853,7 @@ ul.search-input.visible {
     width: 10px;
     height: 10px;
 }
+
 .star{
     line-height: 16px;
     padding: 0 2px ;
@@ -904,11 +914,13 @@ ul.search-input.visible {
     display: flex;
     width: 100%;
     flex-direction: column;
+    height: 500px;
 }
 
 .contact-info{
     position: relative;
 }
+
 .contact-content{
     display: flex;
     flex-direction: row;
@@ -982,7 +994,7 @@ ul.search-input.visible {
     background: white;
     border-radius: 50px 50px 0 0 ;
     width: 100%;
-    height: 300px;
+    /*height: 300px;*/
     box-shadow: 3px 0 20px rgba(0, 0, 0, .1);
     margin-top: 10%;
 }
@@ -1022,19 +1034,21 @@ ul.search-input.visible {
 #page-up{
     width: 45px;
     height:  45px;
+    cursor: pointer;
 }
-
 
 
 /*COUNTRIES*/
 .country-card{
     margin: 20px;
     position: relative;
+
 }
 
 .country-card-bg{
     width: 293px;
     height: 234px;
+
 }
 
 .country-card-bg::before{
@@ -1042,6 +1056,8 @@ ul.search-input.visible {
     width: 293px;
     height: 234px;
     position: absolute;
+    transition: all .2s;
+
     background: rgba(0, 0, 0, 0.2) ;
 }
 
@@ -1058,12 +1074,14 @@ ul.search-input.visible {
     left: 108px;
     letter-spacing: 2px;
     font-size: 20px;
+
 }
 
 .country-card-description{
     max-width: 265px;
     font-size: 12px;
     margin: 18px 0 12px ;
+
 }
 
 .country-card-full-info{
@@ -1071,12 +1089,12 @@ ul.search-input.visible {
     position: absolute;
     top: 25px;
     left: 21px;
-    transition: all .4s;
 }
 
 .country-card-title{
     font-size: 20px;
     color: white;
+
 }
 
 .country-card-btn{
@@ -1088,6 +1106,7 @@ ul.search-input.visible {
     font-size: 11px;
     transition: all .4s;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .country-card-btn:hover{
@@ -1170,7 +1189,7 @@ ul.search-input.visible {
 
 /*FILTER*/
 .choose-tour{
-    margin: 70px 0 -47px 37px;
+    margin: 70px 0 -47px 5px;
     width: 100%;
 }
 
@@ -1277,6 +1296,7 @@ ul.input-type-list.visible {
 .min-price, .max-price, #current-price{
     font-size: 10px;
 }
+
 .max-price{
     margin-left: 125px;
 }
@@ -1320,14 +1340,27 @@ ul.input-type-list.visible {
     height: 271px;
     border-radius: 50%;
 }
+
+#profile-name{
+    display: flex;
+    justify-content: center;
+}
+
 #profile-name-surname{
-    margin: 40px 56px;
+    margin-top: 30px;
     font-size: 25px;
 }
+
+#profile-line{
+    width: 1px;
+    height: 280px;
+    background: rgba(103, 114, 143,0.5);
+}
+
+
 .ordered-tours-list{
     font-size: 14px;
     margin-top: 40px;
-
 }
 
 .ordered-tour{
@@ -1338,7 +1371,6 @@ ul.input-type-list.visible {
 .ordered-tour-content{
     position: relative;
     margin: 35px 0;
-
 }
 
 .ordered-tour-content::after{
@@ -1373,6 +1405,7 @@ ul.input-type-list.visible {
 .user-email{
     margin-top: 55px;
 }
+
 .user-phoneNum, .user-email{
     position: relative;
 }
@@ -1384,7 +1417,7 @@ ul.input-type-list.visible {
 
 .user-personal-info{
     width: 500px;
-    border-right: 1px solid rgba(103, 114, 143,0.5);
+    /*border-right: 1px solid rgba(103, 114, 143,0.5);*/
     height: 250px;
 }
 
@@ -1419,27 +1452,28 @@ ul.input-type-list.visible {
     caret-color: black;
     padding: 0 20px;
     transition: all .4s
-
 }
 
 .input-text:focus{
     border: none;
     outline: none;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-
 }
+
 .input-text:focus::-webkit-input-placeholder {
     transition: all .2s ease-in-out;
     position: absolute;
     top: 6px;
     font-size: 11px;
 }
+
 .input-text:focus::-moz-placeholder{
     transition: all .2s ease-in-out;
     position: absolute;
     top: 6px;
     font-size: 11px;
 }
+
 .input-text:focus:-ms-input-placeholder {
     transition: all .2s ease-in-out;
     position: absolute;
@@ -1468,6 +1502,7 @@ ul.input-type-list.visible {
     cursor: pointer;
     transition: all .4s;
 }
+
 .btn-action:hover{
     box-shadow: 0 0 20px rgba(0, 0 , 0, 0.4 );
 }
@@ -1480,12 +1515,15 @@ ul.input-type-list.visible {
     cursor: pointer;
     width: 80px;
 }
+
 #registration-link a{
     text-decoration: none;
 }
 
 #registration-link:hover{
-    color: #5184EE;
+    color: #3F6DED;
+
+
 }
 
 #registration-link::after{
@@ -1496,6 +1534,7 @@ ul.input-type-list.visible {
     display: block;
     margin-top: 2px;
 }
+
 .form{
     width: 600px;
 }
@@ -1526,9 +1565,11 @@ ul.input-type-list.visible {
     top: 0;
     left: 0;
 }
+
 a{
     text-decoration: none;
 }
+
 .country-photo{
     text-align: center;
 }
@@ -1540,6 +1581,7 @@ a{
 #user-score{
     margin-top: 10px;
 }
+
 .country-photo img{
     width: 530px;
     height: 460px;
@@ -1560,6 +1602,7 @@ a{
     top: 60px;
     right: 70px;
 }
+
 .leave-review-success,
 .leave-review-section{
     display: none;
@@ -1573,6 +1616,7 @@ a{
     left: 50px;
     z-index: 15;
 }
+
 #user-review{
     width: 750px;
     height: 330px;
@@ -1631,6 +1675,7 @@ a{
     top: 63px;
     right: 30px;
 }
+
 .input-section{
     display: flex;
     position: relative;
@@ -1638,4 +1683,88 @@ a{
 
 #show-password{
     display: none;
+}
+
+
+/*AOS duration setting*/
+/*body[data-aos-duration='4000'] [data-aos],*/
+/*[data-aos][data-aos][data-aos-duration='4000']{*/
+/*    transition-duration: 4000ms;*/
+/*}*/
+
+
+/*country photos*/
+.country-photo-container{
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    height: 845px;
+}
+
+#country-photo-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    transition: all .4s;
+}
+
+#country-photo-1:hover, #country-photo-2:hover, #country-photo-3:hover, #country-photo-4:hover, #country-photo-5:hover, #country-photo-6:hover, #country-photo-7:hover {
+    box-shadow: 0 0 20px rgba(0, 0 , 0, 0.3 );
+    transform: scale(1.1);
+
+}
+
+#country-photo-2{
+    position: absolute;
+    top: 372px;
+    left: 0;
+    width: 300px;
+    transition: all .4s;
+
+}
+
+#country-photo-3{
+    position: absolute;
+    top: 0;
+    left: 350px;
+    width: 300px;
+    transition: all .4s;
+
+}
+
+#country-photo-4{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    width: 300px;
+    transition: all .4s;
+
+}
+
+#country-photo-5{
+    position: absolute;
+    top: 602px;
+    left: 350px;
+    width: 300px;
+    transition: all .4s;
+
+}
+
+#country-photo-6{
+    position: absolute;
+    top: 0;
+    left: 700px;
+    width: 300px;
+    transition: all .4s;
+
+}
+
+#country-photo-7{
+    position: absolute;
+    top: 510px;
+    left: 700px;
+    width: 300px;
+    transition: all .4s;
+
 }
