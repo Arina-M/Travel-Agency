@@ -8,9 +8,12 @@
 	<link rel="stylesheet" href="css/style.css">
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.spincrement.min.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<script>
 		const pageType='{$pageType}';
 		const loggedIn=parseInt({$userLoggedIn});
+
 	</script>
 </head>
 <body>
@@ -53,12 +56,12 @@
 	</div>
 
 	{if $mainHeader==true}
-	<div class="content-align">
-		<div class="travel-header">
+	<div class="content-align" data-aos="fade-up" data-aos-duration="1000">
+		<div class="travel-header" >
 			<img src="{$main_image_caption}" class="letter">
 		</div>
 		<div class="title-company">{$region_name}</div>
-		<div class="info-banner">
+		<div class="info-banner" >
 			<div class="social-media">
 				<div class="inst">
 					<a href="https://instagram.com/travel_agency_ukr?igshid=YmMyMTA2M2Y=" target="_blank"><img class="bi-instagram" src="images/inst-icon.png"></a>

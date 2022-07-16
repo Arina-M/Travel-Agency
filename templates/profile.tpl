@@ -3,7 +3,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.min.js"></script>
     <script>
@@ -45,6 +46,7 @@
                     <span id="user-email">{$email}</span>
                 </div>
             </div>
+            <div id="profile-line"></div>
             <div class="ordered-tours">
                 <div id="ordered-tours-title"><h3>Заброньовані тури</h3></div>
                 <div class="ordered-tours-list">

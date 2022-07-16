@@ -1,9 +1,9 @@
 {* smarty *}
 
 <!--            footer-->
-<div class="footer ">
-    <div class="content-align">
-        <div class="footer-content">
+<div class="footer" >
+    <div class="content-align" >
+        <div class="footer-content" >
             <div class="footer-title">TRAVEL</div>
             <div class="menu-footer">
                 <div class="footer-title">МЕНЮ</div>
@@ -30,8 +30,8 @@
                     <div class="mf-text">Субота - неділя: 9:00 - 18:00</div>
                 </div>
             </div>
-            <div class="page-up-arrow">
-                <img id="page-up" src="images/page-up.png">
+            <div class="page-up-arrow" >
+                <img id="page-up" src="images/page-up.png" data-aos="fade-up"  >
             </div>
         </div>
     </div>
@@ -47,6 +47,10 @@
 <script src="js/calendar/daterangepicker.min.js"></script>
 <link href="js/calendar/daterangepicker.css" type="text/css" rel="stylesheet">
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
 

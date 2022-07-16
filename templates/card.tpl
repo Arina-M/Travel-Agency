@@ -21,11 +21,11 @@
         </div>
         <span class="input-title" id="input-clear-filter">Очистити фільтри</span>
     </div>
-    <div class="carousel" id="carousel-card">
+    <div class="carousel" id="carousel-card" >
         <div class="arrow-btn" id="prev-cards"><img src="images/arrow-prev.png"></div>
-        <div class="cards">
+        <div class="cards" >
             {foreach $cards as $card}
-                <div class="card {if !$card->getHot()}nothot{/if}" >
+                <div class="card {if !$card->getHot()}nothot{/if}" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700" data-aos-once="true">
                     <input type="hidden" class="card-date"  value="{$card->getCompareDate()}">
                     <input type="hidden" class="card-type"  value="{$card->getType()}">
                     <input type="hidden" class="card-price" value="{$card->getPrice()}">
@@ -79,17 +79,14 @@
                                     Бажаємо Вам активного та веселого відпочинку
                                 </div>
                             </div>
-                            <div class="country-photo"><img src="images/collages/{$card->getCountryImage()}"></div>
+                            <div class="country-photo"><img src="images/collages/fullcollages/{$card->getCountryImage()}"></div>
                         </div>
                     </div>
 
                 </div>
 
             {/foreach}
-
-            {*    <div class="blackout" id="blackout"></div>*}
         </div>
-
         <div class="arrow-btn" id="next-cards"><img src="images/arrow-next.png"></div>
     </div>
     <div id="carousel-empty">Наразі тури відсутні</div>

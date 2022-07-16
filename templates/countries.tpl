@@ -2,7 +2,7 @@
 
 <div class="content-align">
     <div id="popularTours" class="popular-tours">
-        <div class="countries-arrow-container">
+        <div class="countries-arrow-container" data-aos="fade-right">
             <span class="countries-path"><h4><a href="index.php">Головна сторінка</a></h4></span>
             <span><img src="images/countries-arrow.png"></span>
             <span class="countries-path">Країни</span>
@@ -10,7 +10,7 @@
         <div class="header header-country">Країни</div>
         <div class="country-cards">
             {foreach $countries as $country}
-                <div class="country-card" country-by-id="country-card-bg-{$country->getID()}">
+                <div class="country-card" country-by-id="country-card-bg-{$country->getID()}" >
                     <div class="country-card-bg" id="country-card-bg-{$country->getID()}" style="background: url('images/countries/{$country->getMainImage()}');background-size: cover"></div>
                     <div class="country-card-info ">
                         <div>

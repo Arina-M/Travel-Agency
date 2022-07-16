@@ -9,6 +9,8 @@
 {*	<link rel="stylesheet" href="libs/css/bootstrap-icons-1.8.1/bootstrap-icons.css">*}
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.spincrement.min.js"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<script>
 		const pageType='{$pageType}';
 		const loggedIn=parseInt({$userLoggedIn});
@@ -54,13 +56,13 @@
 
 	{if $mainHeader==true}
 
-	<div class="content-align">
+	<div class="content-align" data-aos="fade-up" data-aos-duration="1000">
 		<div class="travel-header">
 			<img src="{$main_image_caption}" class="letter">
 		</div>
 		<div class="title-company">{$region_name}</div>
 		<div class="info-banner">
-			<div class="text-info">
+			<div class="text-info" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="50">
 				{$country_description}
 			</div>
 		</div>

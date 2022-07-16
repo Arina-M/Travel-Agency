@@ -3,7 +3,7 @@
 <!--            main body-->
 <div class="content-align">
     <!--            popular tours-->
-    <div id="popularTours" class="popular-tours">
+    <div id="popularTours" class="popular-tours" >
         <div class="header">Популярні тури</div>
         {include file="card.tpl"}
     </div>
@@ -11,13 +11,13 @@
 
     <!--            about company-->
     <div id="aboutCompany" class="company">
-        <div class="img-aboutComp">
+        <div class="img-aboutComp" data-aos="fade-right" data-aos-once="true">
             <img src="images/aboutCompany.jpg" class="ac-img">
             <div id="aboutHint-1" class="aboutHint"><span class="number-ac">200</span><span>+</span><br>напрямкiв</div>
             <div id="aboutHint-2" class="aboutHint"><span class="number-ac">3000</span><span>+</span><br>туристів</div>
             <div id="aboutHint-3" class="aboutHint"><span class="number-ac">400</span><span>+</span><br>готелів</div>
         </div>
-        <div class="info">
+        <div class="info" data-aos="fade-left" data-aos-once="true">
             <div class="header">Про компанію</div>
             <div class="text">
                 Наша компанія створена в 2019 році. За цей проміжок
@@ -39,11 +39,12 @@
 
     <!--            reviews-->
     <div class="reviews" id="reviews">
-        <div class="header review-title">Відгуки</div>
-        <span class="arrow-btn-review">
-            <div class="arrow-btn" id="prev-reviews"><img src="images/arrow-prev.png"></div>
-            <div class="arrow-btn" id="next-reviews"><img src="images/arrow-next.png"></div>
-        </span>
+            <div class="header review-title">Відгуки</div>
+            <span class="arrow-btn-review">
+                <div class="arrow-btn" id="prev-reviews"><img src="images/arrow-prev.png"></div>
+                <div class="arrow-btn" id="next-reviews"><img src="images/arrow-next.png"></div>
+            </span>
+
 
         <div class="carousel" id="carousel-review">
             <div class="blocks">
@@ -169,5 +170,7 @@
 
 <script src="js/index.js"></script>
 <script src="js/cards.js"></script>
+
+
 
 {include file="footer.tpl"}
