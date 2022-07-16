@@ -79,17 +79,27 @@ $('#search-icon').click(function (){
         runSearch();
     }
     //hiding menu, showing search
+    // $('#menu-line').addClass('hidden');
     $('#menu-line').addClass('hidden');
+    $('#menu-line nav').hide('fast');
     //showing title "Menu"
-    $('#menu').removeClass('hidden');
-    $('#srch').removeClass('hidden');
+    // $('#menu').removeClass('hidden');
+    // $('#srch').removeClass('hidden');
+
+    $('#menu').show('fast');
+    $('#srch').show('fast');
     $('#search-icon').removeClass('bi-search').addClass('search-icon-clicked');
 });
 //click on menu -> showing menu, hiding search
 $('.menu-btn').click(function (){
     $('#menu-line').removeClass('hidden');
-    $('#menu').addClass('hidden');
-    $('#srch').addClass('hidden');
+    $('#srch').hide();
+    $('#menu-line nav').show('fast');
+    $('#menu').hide('fast');
+
+    // $('#menu-line').removeClass('hidden');
+    // $('#menu').addClass('hidden');
+    // $('#srch').addClass('hidden');
     $('#search-icon').removeClass('search-icon-clicked').addClass('bi-search');
 });
 

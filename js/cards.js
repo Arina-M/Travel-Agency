@@ -130,11 +130,11 @@ function checkCardsNumber(){
     $('#carousel-card').show();
     $('#carousel-empty').hide();
     if(! $('.card:visible').length){
-        $('#carousel-card').hide();
+        // $('#carousel-card').hide();
         $('#carousel-empty').show();
     }
     else{
-        $('#carousel-card').show();
+        // $('#carousel-card').show();
         $('#carousel-empty').hide();
     }
 }
@@ -149,6 +149,9 @@ function checkShownCardsAmount(){
         $('#next-cards').show();
     }
 }
+
+
+    // AOS.init();
 
 
 

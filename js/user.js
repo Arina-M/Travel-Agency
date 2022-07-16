@@ -95,5 +95,7 @@ $('#show-password').click(function (){
     $('#hide-password').show();
 });
 
+// AOS.init();
+
 
 
