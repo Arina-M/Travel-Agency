@@ -1309,7 +1309,7 @@ ul.input-type-list.visible {
 .profile-page{
     width: 100%;
     min-height: 100%;
-    background: #E5E5E5;
+    background: #F3F3F3;
     position: absolute;
     top: 0;
     left: 0;
@@ -1358,7 +1358,6 @@ ul.input-type-list.visible {
     left: 50%;
     background: rgba(103, 114, 143,0.5);
 }
-
 
 .ordered-tours-list{
     font-size: 14px;
@@ -1413,13 +1412,18 @@ ul.input-type-list.visible {
     position: relative;
 }
 
-.change{
-    position: absolute;
-    right: 75px;
+.user-info-container-phone, .user-info-container-change-phone, .user-info-container-change-email, .user-info-container-email{
+    /*position: relative;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-info-hidden{
+    display: none;
 }
 
 .user-personal-info{
-    width: 500px;
+    width: 425px;
     /*border-right: 1px solid rgba(103, 114, 143,0.5);*/
     height: 250px;
 }
@@ -1430,6 +1434,27 @@ ul.input-type-list.visible {
     position: relative;
 }
 
+#change-email, #change-phone, #confirm-email, #confirm-phone{
+    cursor: pointer;
+}
+
+#changed-phone, #changed-email{
+    border: none;
+    background: #F3F3F3;
+    width: 200px;
+    /*height: 24px;*/
+    /*border-radius: 10px;*/
+    /*margin-top: 30px;*/
+    caret-color: black;
+    font-size: 16px;
+    /*padding: 0 20px;*/
+    transition: all .4s
+}
+#changed-phone:focus, #changed-email:focus{
+    border: none;
+    outline: none;
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);*/
+}
 
 /*AUTHORISATION*/
 .close-btn-black{
@@ -1489,7 +1514,7 @@ ul.input-type-list.visible {
     font-size: 11px;
 }
 
-.input-text::placeholder{
+.input-text::placeholder, #changed-phone::placeholder, #changed-email::placeholder{
     color: black;
     /*padding: 0 10px;*/
 }
