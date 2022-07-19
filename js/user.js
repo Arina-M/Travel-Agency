@@ -95,7 +95,14 @@ $('#show-password').click(function (){
     $('#hide-password').show();
 });
 
-// AOS.init();
+$('#change-phone').click(function(){
+   $('.user-info-container-phone').addClass('user-info-hidden');
+   $('.user-info-container-change-phone').removeClass('user-info-hidden');
+});
 
+$('#change-email').click(function(){
+    $('.user-info-container-email').addClass('user-info-hidden');
+    $('.user-info-container-change-email').removeClass('user-info-hidden');
+});
 
 
