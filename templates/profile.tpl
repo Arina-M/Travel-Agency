@@ -37,21 +37,32 @@
 
         <div id="profile-info-container">
             <div id="profile-line"></div>
-
             <div class="profile-info">
                 <div class="user-personal-info">
                     <div class="user-phoneNum">
                         <div class="user-info-title"><h3>Номер телефону</h3></div>
-                        <span id="user-phoneNum">{$phone}</span>
+                        <div class="user-info-container-phone ">
+                            <div id="user-phoneNum">{$phone}</div>
+                            <div class="change" id="change-phone">Змінити</div>
+                        </div>
+                        <div class="user-info-container-change-phone user-info-hidden">
+                            <input type="text" name="phone" id="changed-phone" placeholder="Введіть новий номер">
+                            <div class="change" id="confirm-phone">Підтвердити</div>
+                        </div>
                     </div>
+
                     <div class="user-email">
                         <div class="user-info-title"><h3>E-mail</h3></div>
-                        <span id="user-email">{$email}</span>
+                        <div class="user-info-container-email">
+                            <div id="user-email">{$email}</div>
+                            <div class="change" id="change-email">Змінити</div>
+                        </div>
+                        <div class="user-info-container-change-email user-info-hidden">
+                            <input type="email" name="email" id="changed-email" placeholder="Введіть нову пошту">
+                            <div class="change" id="confirm-email">Підтвердити</div>
+                        </div>
                     </div>
                 </div>
-
-    {*            <div id="profile-line"></div>*}
-
 
                 <div class="ordered-tours">
                     <div id="ordered-tours-title"><h3>Заброньовані тури</h3></div>
