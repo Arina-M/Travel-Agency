@@ -79,7 +79,8 @@
                                     Бажаємо Вам активного та веселого відпочинку
                                 </div>
                             </div>
-                            <div class="country-photo"><img src="images/collages/fullcollages/{$card->getCountryImage()}"></div>
+{*                            <div class="country-photo"><img src="images/collages/{$card->getCountryImage()}"></div>*}
+                            <div class="country-photo"><img src="{$card->getCollageImage()}.jpg"></div>
                         </div>
                     </div>
 

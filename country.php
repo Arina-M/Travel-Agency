@@ -37,6 +37,7 @@ $sql = "SELECT
             t.id,
             t.country_id,
             co.name as country_name,
+            co.main_image as country_image,
             t.name,
             t.city_id,
             ci.name as city_name,
@@ -79,15 +80,16 @@ $mainImageCaption = sprintf("%s/%s.png", CAPTION_IMAGES_DIR, $pathInfo["filename
 
 $description = $country->getDescription();
 
-$collageImage = sprintf("%s/%s", COLLAGES_DIR, $pathInfo["filename"]);
+//$collageImage = sprintf("%s/%s", COLLAGES_DIR, $pathInfo["filename"]);
 
 $region = $country->getRegionName();
 
 $smarty->assign("headerBGImage", $mainImage);
 $smarty->assign("main_image_caption", $mainImageCaption);
 $smarty->assign("country_description", $description);
-$smarty->assign("collage_image", $collageImage);
+//$smarty->assign("collage_image", $collageImage);
 $smarty->assign("region_name", $region);
+$smarty->assign("collage_image", getCollageImgName($country->getMainImage()));
 
 $smarty->display('country.tpl');
 

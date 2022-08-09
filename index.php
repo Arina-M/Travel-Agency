@@ -44,6 +44,8 @@ while ($row = $result->fetch()) {
     $cards[] = $row;
 }
 
+
+
 $mainDescription ='Ми туристична компанія, яка обожнює те, що робить,
 адже кожного дня ми бачимо щасливі очі наших клієнтів та чуємо від них безліч захоплених слів від подорожей, які були обрані
 та надані нашою компанією';
@@ -54,6 +56,7 @@ $smarty->assign('mainHeader', true);
 $smarty->assign("main_image_caption", 'images/captions/travel.png');
 $smarty->assign("country_description", $mainDescription);
 $smarty->assign("region_name", 'COMPANY');
+//$smarty->assign("collage_image", getCollageImgName($cards[country_image]->getMainImage()));
 
 
 $smarty->display('index.tpl');

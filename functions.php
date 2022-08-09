@@ -127,3 +127,12 @@ function interpolateQuery($query, $params) {
     return $query;
 }
 
+
+function getCollageImgName($mainImgName){
+    $mainImage = COUNTRY_IMAGES_DIR . $mainImgName;
+    $pathInfo = pathinfo($mainImage);
+
+    return $collageImage = sprintf("%s/%s", COLLAGES_DIR, $pathInfo["filename"]);
+}
+
+

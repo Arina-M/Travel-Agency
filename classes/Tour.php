@@ -63,6 +63,10 @@ class Tour
         return $this->country_image;
     }
 
+    public function getCollageImage(){
+        return getCollageImgName($this->getCountryImage());
+    }
+
     /**
      * @return mixed
      */

@@ -6,7 +6,8 @@
 	<title>TRAVEL</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
-{*	<link rel="stylesheet" href="libs/css/bootstrap-icons-1.8.1/bootstrap-icons.css">*}
+	<link rel="stylesheet" href="css/responsive.css">
+	{*	<link rel="stylesheet" href="libs/css/bootstrap-icons-1.8.1/bootstrap-icons.css">*}
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery.spincrement.min.js"></script>
 	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
