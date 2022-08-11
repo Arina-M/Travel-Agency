@@ -1141,6 +1141,7 @@ ul.search-input.visible {
 
 .countries-arrow-container span img{
     padding: 0 15px 4px;
+    width: 60px;
 }
 
 #main-page-country{
