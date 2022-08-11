@@ -4,7 +4,7 @@
 <div class="footer" >
     <div class="content-align" >
         <div class="footer-content" >
-            <div class="footer-title">TRAVEL</div>
+            <div class="footer-title" id="footer-travel">TRAVEL</div>
             <div class="menu-footer">
                 <div class="footer-title">МЕНЮ</div>
                 <div class="menu-content">
