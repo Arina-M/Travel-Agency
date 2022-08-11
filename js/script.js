@@ -141,7 +141,7 @@ $('.switch-button-checkbox').click(function(){
 function onCountryPageLoad(){
     $('.banner').css('height', '5vh');
     $('.header-menu').addClass('active');
-    $('.container').css('padding', '1% 0');
+    $('.container').css('padding', '15px 0');
 
 }
 

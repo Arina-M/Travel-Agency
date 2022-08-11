@@ -284,4 +284,12 @@
     .header-menu.active{
         height: 53px;
     }
+
+    .country-cards{
+        width: 300px;
+    }
+
+    .country-card{
+        margin: 20px 0;
+    }
 }
