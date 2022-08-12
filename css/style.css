@@ -1156,7 +1156,7 @@ ul.search-input.visible {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: white;
+    color: white; 
     font-size: 25px;
 }
 
@@ -1744,71 +1744,56 @@ a{
     height: 845px;
 }
 
+#country-photo-1:hover, #country-photo-2:hover, #country-photo-3:hover, #country-photo-4:hover, #country-photo-5:hover, #country-photo-6:hover, #country-photo-7:hover {
+    box-shadow: 0 0 20px rgba(0, 0 , 0, 0.3 );
+    transform: scale(1.1);
+}
+
+#country-photo-1, #country-photo-2, #country-photo-3, #country-photo-4, #country-photo-5, #country-photo-6, #country-photo-7{
+    transition: all .4s;
+    width: 300px;
+}
+
 #country-photo-1{
     position: absolute;
     top: 0;
     left: 0;
-    width: 300px;
-    transition: all .4s;
-}
-
-#country-photo-1:hover, #country-photo-2:hover, #country-photo-3:hover, #country-photo-4:hover, #country-photo-5:hover, #country-photo-6:hover, #country-photo-7:hover {
-    box-shadow: 0 0 20px rgba(0, 0 , 0, 0.3 );
-    transform: scale(1.1);
-
 }
 
 #country-photo-2{
     position: absolute;
     top: 372px;
     left: 0;
-    width: 300px;
-    transition: all .4s;
-
 }
 
 #country-photo-3{
     position: absolute;
     top: 0;
     left: 350px;
-    width: 300px;
-    transition: all .4s;
-
 }
 
 #country-photo-4{
     position: absolute;
     top: 250px;
     left: 350px;
-    width: 300px;
-    transition: all .4s;
-
 }
 
 #country-photo-5{
     position: absolute;
     top: 602px;
     left: 350px;
-    width: 300px;
-    transition: all .4s;
-
 }
 
 #country-photo-6{
     position: absolute;
     top: 0;
     left: 700px;
-    width: 300px;
-    transition: all .4s;
-
 }
 
 #country-photo-7{
     position: absolute;
     top: 510px;
     left: 700px;
-    width: 300px;
-    transition: all .4s;
 }
 
 

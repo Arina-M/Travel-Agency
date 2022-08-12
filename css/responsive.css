@@ -292,4 +292,43 @@
     .country-card{
         margin: 20px 0;
     }
+
+    #country-photo-1, #country-photo-2, #country-photo-3, #country-photo-4, #country-photo-5, #country-photo-6, #country-photo-7{
+        width: 150px;
+    }
+
+    .country-photo-container{
+        height: 735px;
+    }
+
+    #country-photo-2{
+        top: 170px;
+    }
+
+    #country-photo-3{
+        left: 164px;
+
+    }
+
+    #country-photo-4{
+        top: 117px;
+        left: 164px;
+    }
+
+    #country-photo-5{
+        top: 289px;
+        left: 164px;
+    }
+
+    #country-photo-6{
+        top: 422px;
+        left: 0;
+    }
+
+    #country-photo-7{
+        top: 429px;
+        left: 164px;
+    }
+
+
 }
