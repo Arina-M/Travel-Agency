@@ -307,7 +307,6 @@
 
     #country-photo-3{
         left: 164px;
-
     }
 
     #country-photo-4{
@@ -330,5 +329,36 @@
         left: 164px;
     }
 
+    .full_card{
+        width: 300px;
+    }
+
+    .full-card-img{
+        justify-content: center;
+    }
+
+    #card-img{
+        width: 150px;
+    }
+
+    .full-card-info{
+        line-height: 24px;
+        font-size: 10px;
+        margin: 0;
+        width: 225px;
+    }
+
+    #card-description {
+        /* width: 738px; */
+        /* height: 149px; */
+        line-height: 11px;
+        margin-left: 7px;
+        margin-top: 9px;
+        font-size: 8px;
+    }
+
+    .full-card-info div span {
+        margin-left: 4px;
+    }
 
 }

@@ -576,7 +576,7 @@ ul.search-input.visible {
     display: flex;
     justify-content: right;
     width: 250px;
-    height: 262px;
+    /*height: 262px;*/
 }
 
 .full-card-info{
