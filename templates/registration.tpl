@@ -12,7 +12,7 @@
 <div class="profile-page registration-page">
     <div class="content-align">
         <div class="close-btn-black" id="close-profile-x">
-            <img src="images/close-black.png">
+            <img class="close-img" src="images/close-black.png">
         </div>
         <div class="form-content">
             <div class="form reg-form">

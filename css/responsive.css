@@ -447,4 +447,8 @@
         flex-direction: column;
     }
 
+    .close-img{
+        width: 23px;
+    }
+
 }

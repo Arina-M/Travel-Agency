@@ -13,7 +13,7 @@
 <div class="profile-page sign-in-page">
     <div class="content-align">
         <div class="close-btn-black" id="close-profile-x">
-            <img src="images/close-black.png">
+            <img class="close-img" src="images/close-black.png">
         </div>
         <div class="form-content">
             <form id="signin-form" action="signIn.php" method="post">

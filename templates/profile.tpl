@@ -23,7 +23,7 @@
                 <div>ОСОБИСТИЙ АКАУНТ</div>
                 <div id="logOut">Вийти</div>
             </div>
-            <div id="close-profile-x" style="cursor: pointer"><img src="images/close-white.png"></div>
+            <div id="close-profile-x" style="cursor: pointer"><img class="close-img" src="images/close-white.png"></div>
         </div>
     </div>
     <div class="content-align">
