@@ -1627,7 +1627,7 @@ a{
 
 .country-photo img{
     width: 530px;
-    height: 460px;
+    /*height: 460px;*/
 }
 
 .sb-caption{

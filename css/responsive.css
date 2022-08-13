@@ -371,4 +371,17 @@
         flex-direction: column;
     }
 
+    .sb-content{
+        margin-top: 170px;
+    }
+
+    .successful-booking-alert{
+        width: 300px;
+        height: 880px;
+    }
+
+    .country-photo img{
+        width: 280px;
+    }
+
 }
