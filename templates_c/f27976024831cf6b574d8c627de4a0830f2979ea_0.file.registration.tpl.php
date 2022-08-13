@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-07-13 14:56:27
+/* Smarty version 3.1.43, created on 2022-08-13 20:43:02
   from 'C:\OpenServer\domains\www\project\templates\registration.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_62ceb2eb92cce3_26595162',
+  'unifunc' => 'content_62f7e2a68549a0_58569456',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f27976024831cf6b574d8c627de4a0830f2979ea' => 
     array (
       0 => 'C:\\OpenServer\\domains\\www\\project\\templates\\registration.tpl',
-      1 => 1657711224,
+      1 => 1660411748,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62ceb2eb92cce3_26595162 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62f7e2a68549a0_58569456 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +28,7 @@ function content_62ceb2eb92cce3_26595162 (Smarty_Internal_Template $_smarty_tpl)
     <title>Registration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <?php echo '<script'; ?>
  src="js/jquery.min.js"><?php echo '</script'; ?>
 >
