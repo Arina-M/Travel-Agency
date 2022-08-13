@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="full_card hidden" id="full_card_{$card->getId()}">
-                    <div class="full_card_close_btn" full-card-id="full_card_{$card->getId()}"><img src="images/close-black.png"></div>
+                    <div class="full_card_close_btn" full-card-id="full_card_{$card->getId()}"><img class="close-img" src="images/close-black.png"></div>
                     <div class="card_name"><h3>{$card->getCardName()}</h3></div>
                     <div>
                         <div class="full-card-img"><img id="card-img" src="images/cards/{$card->getMainImage()}"></div>
@@ -69,7 +69,7 @@
                         </div>
                     </div>
                     <div class="successful-booking-alert" id="booking-success-win-{$card->getID()}">
-                        <div class="booking-alert-close-btn"><img src="images/close-black.png"></div>
+                        <div class="booking-alert-close-btn"><img class="close-img" src="images/close-black.png"></div>
                         <div class="sb-content">
                             <div class="sb-caption">
                                 <div class="sb-title">

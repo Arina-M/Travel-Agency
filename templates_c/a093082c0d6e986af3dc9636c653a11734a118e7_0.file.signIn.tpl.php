@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-08-13 20:31:42
+/* Smarty version 3.1.43, created on 2022-08-13 20:56:34
   from 'C:\OpenServer\domains\www\project\templates\signIn.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_62f7dffe5eda99_33940793',
+  'unifunc' => 'content_62f7e5d256f046_59593218',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a093082c0d6e986af3dc9636c653a11734a118e7' => 
     array (
       0 => 'C:\\OpenServer\\domains\\www\\project\\templates\\signIn.tpl',
-      1 => 1660411748,
+      1 => 1660413099,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62f7dffe5eda99_33940793 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62f7e5d256f046_59593218 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +38,7 @@ function content_62f7dffe5eda99_33940793 (Smarty_Internal_Template $_smarty_tpl)
 <div class="profile-page sign-in-page">
     <div class="content-align">
         <div class="close-btn-black" id="close-profile-x">
-            <img src="images/close-black.png">
+            <img class="close-img" src="images/close-black.png">
         </div>
         <div class="form-content">
             <form id="signin-form" action="signIn.php" method="post">

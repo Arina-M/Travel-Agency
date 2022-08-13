@@ -1729,6 +1729,10 @@ a{
 }
 
 
+.close-img{
+    width: 30px;
+}
+
 /*AOS duration setting*/
 /*body[data-aos-duration='4000'] [data-aos],*/
 /*[data-aos][data-aos][data-aos-duration='4000']{*/
