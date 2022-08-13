@@ -64,7 +64,7 @@
                             <div><h4>Місто відправлення / прибуття:</h4><span>{$card->getDepartureCityName()}</span></div>
                             <div><h4>Місце відправлення / прибуття:</h4><span>{$card->getDeparturePlaceName()}</span></div>
                             <div><h4>Ціна:</h4><span>{$card->getFullPrice()} (людина)</span></div>
-                            <div><h4>Опис:</h4> <div id="card-description">{$card->getDescription()}</div></div>
+                            <div id="tour-description"><h4>Опис:</h4> <div id="card-description">{$card->getDescription()}</div></div>
                             <div id="book-tour"><button class="btn-book-tour" book-tour-id="{$card->getId()}">Забронювати</button></div>
                         </div>
                     </div>

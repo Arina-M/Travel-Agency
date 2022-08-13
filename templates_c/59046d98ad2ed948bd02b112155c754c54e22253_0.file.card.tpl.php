@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-08-08 20:58:10
+/* Smarty version 3.1.43, created on 2022-08-13 19:06:39
   from 'C:\OpenServer\domains\www\project\templates\card.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_62f14eb216b1e9_73802614',
+  'unifunc' => 'content_62f7cc0f364050_38681572',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '59046d98ad2ed948bd02b112155c754c54e22253' => 
     array (
       0 => 'C:\\OpenServer\\domains\\www\\project\\templates\\card.tpl',
-      1 => 1659981462,
+      1 => 1660406787,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_62f14eb216b1e9_73802614 (Smarty_Internal_Template $_smarty_tpl) {
+function content_62f7cc0f364050_38681572 (Smarty_Internal_Template $_smarty_tpl) {
 ?>    <div style="display: flex;">
         <div class="switch-button">
             <input class="switch-button-checkbox" type="checkbox">
@@ -115,7 +115,7 @@ $_smarty_tpl->tpl_vars['card']->do_else = false;
 </span></div>
                             <div><h4>Ціна:</h4><span><?php echo $_smarty_tpl->tpl_vars['card']->value->getFullPrice();?>
  (людина)</span></div>
-                            <div><h4>Опис:</h4> <div id="card-description"><?php echo $_smarty_tpl->tpl_vars['card']->value->getDescription();?>
+                            <div id="tour-description"><h4>Опис:</h4> <div id="card-description"><?php echo $_smarty_tpl->tpl_vars['card']->value->getDescription();?>
 </div></div>
                             <div id="book-tour"><button class="btn-book-tour" book-tour-id="<?php echo $_smarty_tpl->tpl_vars['card']->value->getId();?>
 ">Забронювати</button></div>

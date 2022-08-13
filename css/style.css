@@ -509,9 +509,9 @@ ul.search-input.visible {
     position: absolute;
 
     /*position: fixed;*/
-    /*left: 50%;*/
-    /*top: 50%;*/
-    /*transform: translate(-50%, -50%);*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .full_card_close_btn{

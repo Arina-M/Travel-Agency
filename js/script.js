@@ -122,10 +122,11 @@ $('.blackout-bg').click(function(){
 $('.btn-toOrder').click(function(){
     $('.full_card').addClass('hidden');
     let cardID = $(this).attr('full-card-id');
-    let contentWidth  = 1000;
-    let left = contentWidth / 2 - 443;
-    let top = $(window).height() / 2 - 180;
-    $('#' + cardID).css('left', left).css('top', top).removeClass('hidden');
+    // let contentWidth  = 1000;
+    // let left = contentWidth / 2 - 443;
+    // let top = $(window).height() / 2 - 180;
+    // $('#' + cardID).css('left', left).css('top', top).removeClass('hidden');
+    $('#' + cardID).removeClass('hidden');
     $('.blackout-bg').show();
 });
 
